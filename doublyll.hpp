@@ -32,7 +32,7 @@ class DoublyLinkedList : public List {
     public:
         DoublyLinkedList(){
             head = new node;
-            tail = newn node;
+            tail = new node;
             head->next = tail;
             tail->prev = head;
             size = 0;
