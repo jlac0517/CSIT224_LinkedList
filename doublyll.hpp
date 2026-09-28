@@ -14,7 +14,7 @@ class DoublyLinkedList : public List {
         n->next = succ;
         succ->prev = n;
         pred->next = n;
-        size--;
+        size++;
         return n;
     }
 
